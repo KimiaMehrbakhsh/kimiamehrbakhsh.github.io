@@ -53,3 +53,37 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+/* Mobile-friendly and smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 110%;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    div {
+        margin-top: 20px;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    li {
+        margin-bottom: 5%;
+    }
+    
+    a {
+        padding: 12px 24px; /* Larger buttons for mobile */
+    }
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}
