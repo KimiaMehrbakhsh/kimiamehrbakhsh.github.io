@@ -1,0 +1,55 @@
+/* General body styling */
+
+body {
+	background-color: #01311F;  /*#121212 ;*/
+	color: #fff;
+	font-size: 130%;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Header Styling */
+h1{
+	margin-top: 50px;
+	color: #B99A49;
+	font-size: 36px;
+}
+
+/* Links Section Styling */
+div{
+	margin-top: 40px;
+	color: #B99A49;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+	margin-bottom: 2%;
+
+}
+
+a{
+	background: linear-gradient(135deg, #ff7eb3, #B99A49);
+    color: #01311F;
+    border: none;
+    padding: 8px 24px;
+   	border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+	transform: scale(1.05);
+	box-shadow: 0 5px 15px rgba(255,177,140,0.4);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}
