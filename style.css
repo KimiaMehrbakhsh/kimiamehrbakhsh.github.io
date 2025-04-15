@@ -100,8 +100,66 @@ a:hover {
     border-radius: 12px;
 }
 
+.projects-scroll {
+    margin: 40px auto; /* adds vertical spacing and centers it horizontally */
+    text-align: : center;
+    color: #B99A49;
+
+}
+
+.scroll-container {
+    display: flex; /* alligns child elements in a row */
+    flex-direction: row;
+    overflow-x: auto; /* enables horizontal scrolling */
+    padding: 10px;
+    gap: 16px;
+    scrollbar-width: thin;
+  scrollbar-color: #B99A49 transparent;
+
+    /* scrollbar customization */
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px;                 /* Height of the horizontal scrollbar */
+}
+
+/* Styling the scrollbar thumb (the draggable part) */
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #B99A49;         /* Color of the scrollbar thumb */
+    border-radius: 4px;          /* Rounded corners for a softer look */
+}
+
+/* Style for each individual project link that looks like a button */
+.project-card {
+flex: 0 0 auto; /* prevents shrinking, keeps width */
+  width: 350px;
+  background: #fff;
+  color: #01311F;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.project-card span {
+    font-weight: bold;
+    font-size:1.1em ;
+}
+
+/* Hover effect for project buttons */
+.project-card:hover {
+    transform: scale(1.05);      /* Slightly enlarges button on hover */
+    box-shadow: 0 4px 10px rgba(255, 177, 140, 0.4); /* Soft shadow for depth */
+}
+
 footer {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 0.9em;
     color: #777;
 }
@@ -135,7 +193,7 @@ footer {
 
 /* Footer Styling */
 footer {
-    margin-top: 50px;
+    margin-top: 280px;
     font-size: 0.9em;
     color: #777;
 }
